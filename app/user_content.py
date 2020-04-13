@@ -5,9 +5,9 @@ from app.pages import page_about, page_example_static, page_example_dynamic
 class UserContent:
     def get_user_settings(self):
         return {
-            "app_title": "example title",
-            "app_subtitle": "example subtitle",
-            "contact_email": "dev@dev.com",
+            "app_title": "Covid19 Analytics App",
+            "app_subtitle": "Analytics and visuals based on the ECDC database.",
+            "contact_email": "",
         }
 
     def load_user_tabs(self):
